@@ -1,0 +1,4 @@
+.*.swp
+wp-config.php
+node_modules
+uploads
