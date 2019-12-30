@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/gramener-sanchar"]
+	path = wp-content/themes/gramener-sanchar
+	url = https://github.com/healthcommcore/gramener-sanchar.git
