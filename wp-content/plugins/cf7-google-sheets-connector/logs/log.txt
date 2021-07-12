@@ -1,0 +1,48 @@
+25 February 2020 18:00:13 	 PHP 7.1.15Array
+(
+    [ERROR_MSG] => Auth, Invalid OAuth2 access token
+    [TRACE_STK] => #0 /var/www/html/sanchar/wp-content/plugins/cf7-google-sheets-connector/includes/class-gs-service.php(131): cf7gsc_googlesheet->auth()
+#1 /var/www/html/sanchar/wp-includes/class-wp-hook.php(286): Gs_Connector_Service->cf7_save_to_google_sheets(Object(WPCF7_ContactForm))
+#2 /var/www/html/sanchar/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/sanchar/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/sanchar/wp-content/plugins/contact-form-7/includes/submission.php(214): do_action('wpcf7_mail_sent', Object(WPCF7_ContactForm))
+#5 /var/www/html/sanchar/wp-content/plugins/contact-form-7/includes/submission.php(34): WPCF7_Submission->submit()
+#6 /var/www/html/sanchar/wp-content/plugins/contact-form-7/includes/contact-form.php(740): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm), Array)
+#7 /var/www/html/sanchar/wp-content/plugins/contact-form-7/includes/rest-api.php(280): WPCF7_ContactForm->submit()
+#8 /var/www/html/sanchar/wp-includes/rest-api/class-wp-rest-server.php(946): wpcf7_rest_create_feedback(Object(WP_REST_Request))
+#9 /var/www/html/sanchar/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /var/www/html/sanchar/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/contact-form-7...')
+#11 /var/www/html/sanchar/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#12 /var/www/html/sanchar/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#13 /var/www/html/sanchar/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#14 /var/www/html/sanchar/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#15 /var/www/html/sanchar/wp-includes/class-wp.php(737): WP->parse_request('')
+#16 /var/www/html/sanchar/wp-includes/functions.php(1105): WP->main('')
+#17 /var/www/html/sanchar/wp-blog-header.php(16): wp()
+#18 /var/www/html/sanchar/index.php(17): require('/var/www/html/s...')
+#19 {main}
+)
+25 February 2020 18:01:04 	 PHP 7.1.15Array
+(
+    [ERROR_MSG] => Auth, Invalid OAuth2 access token
+    [TRACE_STK] => #0 /var/www/html/sanchar/wp-content/plugins/cf7-google-sheets-connector/includes/class-gs-service.php(131): cf7gsc_googlesheet->auth()
+#1 /var/www/html/sanchar/wp-includes/class-wp-hook.php(286): Gs_Connector_Service->cf7_save_to_google_sheets(Object(WPCF7_ContactForm))
+#2 /var/www/html/sanchar/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/sanchar/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/sanchar/wp-content/plugins/contact-form-7/includes/submission.php(214): do_action('wpcf7_mail_sent', Object(WPCF7_ContactForm))
+#5 /var/www/html/sanchar/wp-content/plugins/contact-form-7/includes/submission.php(34): WPCF7_Submission->submit()
+#6 /var/www/html/sanchar/wp-content/plugins/contact-form-7/includes/contact-form.php(740): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm), Array)
+#7 /var/www/html/sanchar/wp-content/plugins/contact-form-7/includes/rest-api.php(280): WPCF7_ContactForm->submit()
+#8 /var/www/html/sanchar/wp-includes/rest-api/class-wp-rest-server.php(946): wpcf7_rest_create_feedback(Object(WP_REST_Request))
+#9 /var/www/html/sanchar/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /var/www/html/sanchar/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/contact-form-7...')
+#11 /var/www/html/sanchar/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#12 /var/www/html/sanchar/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#13 /var/www/html/sanchar/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#14 /var/www/html/sanchar/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#15 /var/www/html/sanchar/wp-includes/class-wp.php(737): WP->parse_request('')
+#16 /var/www/html/sanchar/wp-includes/functions.php(1105): WP->main('')
+#17 /var/www/html/sanchar/wp-blog-header.php(16): wp()
+#18 /var/www/html/sanchar/index.php(17): require('/var/www/html/s...')
+#19 {main}
+)
